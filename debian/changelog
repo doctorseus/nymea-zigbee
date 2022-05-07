@@ -1,3 +1,17 @@
+nymea-zigbee (1.1.0) jammy; urgency=medium
+
+  [ Michael Zanetti ]
+  * Add electrical measurement and metering clusters
+  * Fix a crash when ZDO responses come in after the ZDO request timed
+    out
+  * Fix permit joining duration/remaining signals
+  * Timeout ZCL replies
+  * Add Battery Alarm State support to PowerConfiguration cluster
+  * Add IAS WD cluster
+  * Fix a typo in the illuminancemeasurement cluster
+
+ -- jenkins <developer@nymea.io>  Sun, 08 May 2022 00:24:35 +0200
+
 nymea-zigbee (1.0.0) xenial; urgency=medium
 
   [ Michael Zanetti ]
